@@ -7,7 +7,7 @@ Note:
 
 ### Description
 
-This project applies flask, html, css scripts to implement a Genshin Impact lore-friendly chat UI.
+This project applies flask, html, js, css scripts to implement a Genshin Impact lore-friendly chat UI.
 
 ### Requirement
 
