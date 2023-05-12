@@ -1,0 +1,54 @@
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  overflow: hidden;
+  transform: scale(1.4)
+}
+
+#bg-video-shogun {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  overflow: hidden;
+  transform: scale(1.0)
+}
+
+#bg-video-hutao {
+  position: absolute;
+  top: -10%;
+  left: -1%;
+  width: 100%;
+  bottom: 0;
+  z-index: -1;
+  overflow: hidden;
+  transform: scale(1.05)
+}
+
+#bg-video-yae {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+  transform: scale(1.0)
+}
+
+#bg-video-zhongli {
+  position: absolute;
+  top: -11%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+  overflow: hidden;
+  transform: scale(1.0)
+}

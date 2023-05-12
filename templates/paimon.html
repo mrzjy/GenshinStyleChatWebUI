@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Genshin Impact Chatbot</title>
+    <link rel="stylesheet" href="static/css/background.css">
+    <link rel="stylesheet" href="static/css/chat_interface.css">
+    <link rel="stylesheet" href="static/css/log_interface.css">
+  </head>
+  <body>
+    <div id="history-container">
+      <h1>日志</h1>
+      <img src="static/resource/frame.png" alt="Frame Image">
+      <div id="history-message"></div>
+    </div>
+    
+    <div id="chat-container">
+      <h1>派蒙</h1>
+      <text>最好的伙伴</text>
+      <img src="static/resource/frame.png" alt="Frame Image">
+      <div id="message-container"></div>
+      <input id="user-input" type="text" placeholder="Type your message here...">
+      <button id="toggle-button">查看日志</button>
+    </div>
+    <video autoplay muted loop id="bg-video">
+      <source src="static/resource/Genshin-Impact-with-Paimon-BGM-4K-60FPS.mp4" type="video/mp4">
+    </video>
+    
+    <script src="static/js/chat.js"></script>
+  </body>
+</html>

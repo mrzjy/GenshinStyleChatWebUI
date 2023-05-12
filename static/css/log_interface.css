@@ -1,0 +1,40 @@
+#history-container {
+  position: fixed;
+  top: 0;
+  right: -15%; /* start offscreen to the right */
+  width: 15%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: right 0.5s ease-in-out;
+  color: white; /* add text color */
+  display: flex; /* add flex display */
+  justify-content: center; /* center content horizontally */
+  align-items: left;
+  border-radius: 10px; /* add border radius */
+}
+
+#history-container h1 {
+  position: absolute;
+  font-size: 16px;
+  color: goldenrod;
+  text-align: center;
+}
+
+#history-container.open {
+  right: 0; /* move to the left to show the box */
+}
+
+#history-message {
+  position: absolute;
+  top: 4%;
+  left: 4%;
+  white-space: pre-wrap;
+}
+
+#history-container img {
+  position: absolute;
+  top: 0%;
+  z-index: 1;
+  transform: scale(0.25);
+}

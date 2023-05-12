@@ -1,0 +1,28 @@
+#paimon-link .profile-photo {
+  width: 100%;
+}
+
+.profile-photos {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-photos img {
+  width: 95%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease-in-out;
+}
+.profile-photos img:hover {
+  transform: scale(1.2);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
