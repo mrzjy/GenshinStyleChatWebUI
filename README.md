@@ -1,6 +1,8 @@
 # GenshinStyleChatWebUI
 A simple but lore-friendly web UI for chatting with Genshin Impact characters.
 
+<div align=center><img src="./assets/demo.png"/></div>
+
 Note:
 
 - This project only contains the UI, no chatbot engine is actually provided.
@@ -20,3 +22,5 @@ pip install flask
 ~~~
 python app.py
 ~~~
+
+Then open http://127.0.0.1:12346 in your browser.
